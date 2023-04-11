@@ -7,7 +7,17 @@
 }
 .cabecalho{
     background-color: var(--oceano);
+    display: flex;
+    justify-content: space-between;
 }
 .logo{
     width: 10%;
+    padding: 10px 35px;
+}
+.menu-item{
+    display: inline-block;
+    padding: 10px 35px;
+    margin-top: 40px;
+    font-size: 30px;
+    color: var(--azul);
 }
