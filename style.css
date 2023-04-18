@@ -3,8 +3,14 @@
     --oceano: #457B9D;
     --menta: #A8DADC;
     --ciano: #F1FAEE;
-    --averemlhado: #E63946;
+    --averemlhado: #f3a1a8;
 }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .cabecalho{
     background-color: var(--oceano);
     display: flex;
@@ -20,4 +26,7 @@
     margin-top: 40px;
     font-size: 30px;
     color: var(--azul);
+}
+.principal{
+    background-image: linear-gradient(var(--oceano), var(--ciano));
 }
